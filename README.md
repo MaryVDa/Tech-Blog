@@ -45,3 +45,5 @@ THEN I am able to view posts and comments but I am prompted to log in again befo
 
 ## Github
 https://github.com/MaryVDa/Tach-Blog
+
+## Credit
