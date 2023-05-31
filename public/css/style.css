@@ -2,10 +2,14 @@ header, .post:not(:last-child) {
     border-bottom: 1px solid #e6e6e6;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .no-button {
     border: none;
     background: none;
-    color: #337ab7;
+    color: #fe0f82;
     padding: 0;
     cursor: pointer;
     text-decoration: none;
@@ -13,6 +17,6 @@ header, .post:not(:last-child) {
 }
 
 .no-button:hover {
-    color: #23527c;
+    color: #af0b5a;
     text-decoration: underline;
 }
