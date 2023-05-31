@@ -1,0 +1,9 @@
+<div class="comments">
+    {{#each comments}}
+    <div>
+        <p class="card-body">
+            {{comment_text}} - {{user.username}} on {{comment_date}}
+        </p>
+    </div>
+    {{/each}}
+</div>
