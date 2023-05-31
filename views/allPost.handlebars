@@ -1,0 +1,12 @@
+<div class="row">
+    <div class="col-auto">
+        <h1 class="text-center">All Posts</h1>
+    </div>
+</div>
+<br>
+{{#if posts.length}}
+<div class="card flex-column">
+    {{#each posts as |post|}}
+    {{/each}}
+</div>
+{{/if}}
