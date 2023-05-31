@@ -62,7 +62,7 @@ router.get('/login', withAuth, async(req, res) => {
     return;
 }
 
-res.render('signup');
-});
+res.render('signup')
+);
 
 model.exports = router;
