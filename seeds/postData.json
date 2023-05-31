@@ -1,0 +1,17 @@
+[
+    {
+        "title": "New Technology",
+        "comment": "This is great technology!",
+        "userId": 1
+    },
+    {
+        "title": "Tech tips to make your life easier",
+        "comment": "This made my life easier!",
+        "userId": 2
+    },
+    {
+        "title": "Software Development",
+        "comment": "This is a great article!",
+        "userId": 3
+    }
+]
