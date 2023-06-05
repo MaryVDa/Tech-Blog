@@ -55,14 +55,12 @@ router.get('/post/:id', async(req, res) => {
 
 router.get('/login', withAuth, async(req, res) => {
     if (req.session.logged_in) {
-        res.redirect('/');
+        res.redirect('/dashboard');
         return;
     }
-    res.redirect('dashboard');
-    return;
-}
 
-res.render('signup')
-);
+    res.render('signup')
+});
+
 
 model.exports = router;
