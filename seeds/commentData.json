@@ -1,0 +1,22 @@
+[
+   {
+    "commentText": "Love this!",
+    "userId": 1,
+    "postId": 4
+   },
+   {
+    "commentText": "This is great!",
+    "userId": 2,
+    "postId": 2
+   },
+   {
+    "commentText": ":)",
+    "userId": 3,
+    "postId": 1
+   },
+   {
+    "commentText": "This can't be real!",
+    "userId": 2,
+    "postId": 3
+   }
+]
