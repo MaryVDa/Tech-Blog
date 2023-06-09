@@ -4,7 +4,7 @@ const withAuth = require('../utils/auth');
 
 router.get('/', withAuth, async(req, res) => {
     try {
-        const dbpostData = await Post.findAll({
+        const postData = await Post.findAll({
         where: {
             userId: req.session.userId
         },
@@ -19,7 +19,7 @@ router.get('/', withAuth, async(req, res) => {
         },
         ],
     });
-    const posts = dbpostData.map((post) => post.get({ plain: true }));
+    const posts = postData.map((post) => post.get({ plain: true }));
             res.render('dashboard', { 
                 posts, 
                 loggedIn: req.session.logged_in
@@ -31,7 +31,7 @@ router.get('/', withAuth, async(req, res) => {
 
 router.get('/edit/:id', withAuth, async(req, res) => {
     try {
-     const dbpostData = await Post.findOne(req.session.userId, {
+     const postData = await Post.findOne(req.session.userId, {
         where: {
             id: req.params.id
         },
@@ -46,7 +46,7 @@ router.get('/edit/:id', withAuth, async(req, res) => {
         }],
     });
 
-        const posts = dbpostData.map((post) => post.get({ plain: true }));
+        const posts = postData.map((post) => post.get({ plain: true }));
 
         res.render('edit-post', {
             ...posts,
@@ -56,13 +56,13 @@ router.get('/edit/:id', withAuth, async(req, res) => {
             res.status(500).json(err);
         }
 
-        // const dbpostData = await (dbPostData => {
-        //     if (!dbPostData) {
+        // const postData = await (dbPostData => {
+        //     if (!postData) {
         //         res.status(404).json({ message: 'No post found with this id' });
         //         return;
         //     }
 
-        //     const post = dbPostData.get({ plain: true });
+        //     const post = postData.get({ plain: true });
 
         //     res.render('edit-post', { post, loggedIn: true });
         // })
