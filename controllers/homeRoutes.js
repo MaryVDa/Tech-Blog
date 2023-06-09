@@ -63,4 +63,4 @@ router.get('/login', withAuth, async(req, res) => {
 });
 
 
-model.exports = router;
+module.exports = router;
