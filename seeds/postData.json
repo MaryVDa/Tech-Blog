@@ -1,17 +1,17 @@
 [
     {
         "title": "New Technology",
-        "comment": "This is great technology!",
+        "content": "Check out this new AI technology that is changing the world!",
         "userId": 1
     },
     {
         "title": "Tech tips to make your life easier",
-        "comment": "This made my life easier!",
+        "content": "Tip #1, don't use Internet Explorer. Tip #2, Organize your files. Tip #3, Use a password manager.",
         "userId": 2
     },
     {
         "title": "Software Development",
-        "comment": "This is a great article!",
+        "content": "Software development is the process of conceiving, specifying, designing, programming, documenting, testing, and bug fixing involved in creating and maintaining applications, frameworks, or other software components.",
         "userId": 3
     }
 ]
