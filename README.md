@@ -1,7 +1,6 @@
-# Tech-Blog
-module 14 challenge
-
+# Tech Blog
 ## Description
+An app that let's a user sign up, create blog posts, and comment on other blog posts. This is a CMS-style blog website and follows the MVC paradigm. 
 
 ## User Story
 AS A developer who writes about tech   
@@ -46,4 +45,8 @@ THEN I am able to view posts and comments but I am prompted to log in again befo
 ## Github
 https://github.com/MaryVDa/Tach-Blog
 
+## Future Development
+In the future I would like to get the application working and also add a feature to be able to save posts to view later.
+
 ## Credit
+I used various tech websites and the bootcamp activities for help with this project as well as help from a tutor.
